@@ -20,31 +20,34 @@ var carte = [
 
 
 
+function makeBloc(blocClass, x, y) {
+    var currentBloc = document.createElement("div");
+    currentBloc.setAttribute("class", blocClass);
+    cadre.appendChild(currentBloc);
+    currentBloc.style.top = y*blocHauteur + 'px';
+    currentBloc.style.left = x*blocLargeur + 'px';
+}
+
+
 function afficherCarte()
 {
     var x = 0;
     var y = 0;
-    var carreSol;
-    var carreMur;
 
     for (x=0; x<12; x++){
         for (y=0; y<12; y++){
-            if (carte[y][x] == 0){
-                carreSol = document.createElement("div");
-                carreSol.setAttribute("class","sol");
-                cadre.appendChild(carreSol);
-                carreSol.style.top = y*blocHauteur + 'px';
-                carreSol.style.left = x*blocLargeur + 'px';
-            }
-            else if (carte[y][x] == 1){
-                carreMur = document.createElement("div");
-                carreMur.setAttribute("class","mur");
-                cadre.appendChild(carreMur);
-                carreMur.style.top = y*blocHauteur + 'px';
-                carreMur.style.left = x*blocLargeur + 'px';
-            }          
+            switch (carte[y][x]){
+                case 0:
+                    makeBloc("sol", x, y);
+                break;
+                
+                case 1:
+                    makeBloc("mur", x, y);
+                break;
+            }        
         }   
     }
 }
+
 
 afficherCarte();

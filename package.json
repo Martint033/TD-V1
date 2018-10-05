@@ -1,0 +1,24 @@
+{
+  "name": "TD-V1",
+  "version": "1.0.0",
+  "description": "try to make a little Tower Defense in Javascript",
+  "main": "map.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Martint033/TD-V1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Martint033/TD-V1/issues"
+  },
+  "homepage": "https://github.com/Martint033/TD-V1#readme",
+  "devDependencies": {
+    "webpack": "^4.20.2",
+    "webpack-dev-server": "^3.1.9"
+  }
+}

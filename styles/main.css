@@ -1,0 +1,37 @@
+/* body{
+    background-color: black;
+} */
+#hero {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  background: url("../../tile_sheet/tilesheet.png") -40px 792px;
+  z-index: 1000;
+  bottom: 40px;
+  left: 110px;
+  bottom: 110px;
+}
+
+#fenetre {
+  margin: 50px auto;
+  position: relative;
+  width: 1320px;
+  height: 1320px;
+}
+
+.sol {
+  background: url("../../tile_sheet/tilesheet.png") -40px 792px;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  z-index: 2;
+}
+
+.mur {
+  background: url("../../tile_sheet/tilesheet.png") -681px 792px;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+}
+
+/*# sourceMappingURL=main.css.map */
