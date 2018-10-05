@@ -3,8 +3,6 @@ const blocHauteur = document.getElementById('hero').offsetHeight;
 const cadre = document.getElementById('fenetre');
 
 
-
-
 var carte = [
     [1,1,1,1,1,1,1,1,1,1,1,1],
     [1,0,0,0,0,0,0,1,0,0,0,1],
