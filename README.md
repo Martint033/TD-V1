@@ -3,10 +3,15 @@ try to make a little Tower Defense in Javascript
 
 Remplir ici les tâches à accomplir et les idées à suivre dans le développement du projet.
 
-J'ajoute SASS. Un framework bien pratique pour le CSS.
-Si vous êtes sous windows, bon courage pour l'installer :)
-Si vous êtes sous Linux Ubuntu tapez ces lignes de commandes :
-    npm install -g sass
+
+
+
+J'ajoute SASS et Webpack. C'est des outils bien pratiques même si ils font peur au début.
+Une fois que ce sera fait vous aurez pas grand chose à faire pour vous en servir.
+Mais en attendant que j'ai réussi à tout installer, plus rien ne fonctionne =P.
+
+
+
 
 Par exemple : 
 

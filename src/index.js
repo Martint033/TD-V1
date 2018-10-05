@@ -1,3 +1,6 @@
+require("../assets/stylesheets/scss/styles.scss");
+
+
 const blocLargeur = document.getElementById('hero').offsetWidth;
 const blocHauteur = document.getElementById('hero').offsetHeight;
 const cadre = document.getElementById('fenetre');
