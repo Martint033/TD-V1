@@ -11,14 +11,10 @@ Une fois que ce sera fait vous aurez pas grand chose à faire pour vous en servi
 Mais en attendant que j'ai réussi à tout installer, plus rien ne fonctionne =P.
 
 
-
-
-Par exemple : 
-
-Apprendre le Javascript
-
-Savoir coder en javaScript
-
-Ne pas accepter de femme dans le projet
-
-Acheter du café
+Pour l'instant si vous voulez le tester ou travailler dessus vous devez extraire les fichiers :
+  Public/index.html (!!! ne pas oublier de modifier les chemins des fichiers appelés !!!!)
+  Source/index.js (!!! ne pas oublier de supprimer la ligne "require" tout au début !!!!)
+  Assets/stylesheets/main.css
+  assets/images/tilesheet/tilesheet.png
+  
+  
