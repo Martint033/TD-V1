@@ -13,7 +13,7 @@ Mais en attendant que j'ai réussi à tout installer, plus rien ne fonctionne =P
 
 
 
-#############################################################################  
+
 ## Pour l'instant si vous voulez le tester ou travailler dessus vous devez extraire les fichiers :        
 
   public/index.html (!!! ne pas oublier de modifier les chemins des fichiers appelés !!!!)  
