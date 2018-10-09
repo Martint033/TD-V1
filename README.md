@@ -16,11 +16,11 @@ Mais en attendant que j'ai réussi à tout installer, plus rien ne fonctionne =P
 #############################################################################  
 ## Pour l'instant si vous voulez le tester ou travailler dessus vous devez extraire les fichiers :        
 
-  Public/index.html (!!! ne pas oublier de modifier les chemins des fichiers appelés !!!!)  
+  public/index.html (!!! ne pas oublier de modifier les chemins des fichiers appelés !!!!)  
   
-  Source/index.js (!!! ne pas oublier de supprimer la ligne "require" tout au début !!!!)  
+  source/index.js (!!! ne pas oublier de supprimer la ligne "require" tout au début !!!!)  
   
-  Assets/stylesheets/main.css   
+  assets/stylesheets/main.css   
   
   assets/images/tilesheet/tilesheet.png    
   
